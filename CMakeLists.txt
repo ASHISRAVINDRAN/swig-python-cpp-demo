@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_BUILD_TYPE Release)
 
-set(SWIG_EXECUTABLE C:/DKFZ/Python_work/swigwin-4.2.0/swig.exe)
+set(SWIG_EXECUTABLE <path_to_swig>/swig.exe) # Reset the path to your local SWIG
 find_package(SWIG REQUIRED)
 include(${SWIG_USE_FILE})
 
