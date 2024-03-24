@@ -1,4 +1,3 @@
-/* File : example.i */
 %module shape
 
 %{
